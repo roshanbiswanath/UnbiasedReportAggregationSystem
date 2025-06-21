@@ -12,7 +12,7 @@ from util.LLMClient.AIConfig import FULL_USER_PROMPT, SYSTEM_INSTRUCTION
 
 PARSED_ARTICLES_COLLECTION = "parsedArticles"
 AGGREGATED_ARTICLES_COLLECTION = "aggregatedArticles"
-DISTANCE_THRESHOLD = 0.6599822044372559 # Adjust as needed
+DISTANCE_THRESHOLD = 0.8219 # Adjust as needed
 
 def getArticlesToAggregate(db, collection_name, limit=10):
     collection = db[collection_name]
